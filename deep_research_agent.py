@@ -1,14 +1,21 @@
 import os
+import json
 import logging
+from time import sleep
 from typing import List, Any, Dict
-from serpapi import GoogleSearch
-from dotenv import load_dotenv
 
-# Load environment variables
+from dotenv import load_dotenv
+from serpapi import GoogleSearch
+from openai import OpenAI
+
+# ✅ Load environment variables
 load_dotenv()
 
-# Configure logging
+# ✅ Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
+# ✅ Initialize OpenAI client for v1+ API
+openai_client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 
 class DeepResearchAgent:
@@ -55,9 +62,42 @@ class DeepResearchAgent:
             logging.error(f"Search failed: {e}")
             return []
 
+    def summarize_text(self, text: str) -> str:
+        """
+        Uses OpenAI GPT-3.5 to summarize search result text.
+        """
+        try:
+            response = openai_client.chat.completions.create(
+                model="gpt-3.5-turbo",
+                messages=[
+                    {
+                        "role": "system",
+                        "content": "You are a helpful research assistant. Summarize this search result in 1–2 clear sentences."
+                    },
+                    {
+                        "role": "user",
+                        "content": text
+                    }
+                ],
+                temperature=0.3,
+                max_tokens=100
+            )
+            summary = response.choices[0].message.content.strip()
+            return summary
+        except Exception as e:
+            logging.error(f"Summarization failed: {e}")
+            return text
+
     def process_results(self, results: List[Dict[str, str]]) -> List[str]:
-        logging.info(f"Processing {len(results)} search results.")
-        return [f"{res['title']}: {res['snippet']}" for res in results if res['snippet']]
+        logging.info(f"Processing {len(results)} search results with summarization...")
+        processed = []
+        for res in results:
+            if res['snippet']:
+                raw_text = f"{res['title']}: {res['snippet']}"
+                summary = self.summarize_text(raw_text)
+                processed.append(summary)
+                sleep(1)  # rate limiting
+        return processed
 
     def store_in_knowledge_base(self, processed_results: List[str]):
         for result in processed_results:
@@ -85,12 +125,23 @@ class DeepResearchAgent:
     def prune_search_queries(self):
         self.search_queries = list(dict.fromkeys(self.search_queries))
 
-    def generate_report(self, insights: str) -> str:
+    def generate_report(self, insights: str, save_path: str = None) -> str:
         report = f"\n📘 Research Report on: {self.topic}\n"
         report += f"---\n🔍 Insights:\n{insights}\n\n📚 Knowledge Base:\n"
         for idx, entry in self.knowledge_base.items():
             report += f"{idx}. {entry}\n"
+
+        if save_path:
+            with open(save_path, "w", encoding="utf-8") as f:
+                f.write(report)
+            logging.info(f"✅ Report saved to {save_path}")
+
         return report
+
+    def save_knowledge_base(self, json_path: str = "knowledge.json"):
+        with open(json_path, "w", encoding="utf-8") as f:
+            json.dump(self.knowledge_base, f, ensure_ascii=False, indent=2)
+        logging.info(f"✅ Knowledge base saved to {json_path}")
 
     def run(self):
         logging.info("Starting deep research...")
@@ -110,7 +161,7 @@ class DeepResearchAgent:
             self.update_search_queries(insights)
             self.prune_search_queries()
 
-        report = self.generate_report(insights)
+        report = self.generate_report(insights, save_path="report.md")
+        self.save_knowledge_base("knowledge.json")
         print(report)
         logging.info("✅ Research completed.")
-

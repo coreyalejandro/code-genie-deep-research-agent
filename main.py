@@ -1,17 +1,27 @@
+import argparse
 from deep_research_agent import DeepResearchAgent
 
-print("🔧 Starting DeepResearchAgent...")
+def parse_args():
+    parser = argparse.ArgumentParser(description="Run the DeepResearchAgent.")
+    parser.add_argument("--topic", required=True, help="Research topic")
+    parser.add_argument("--depth", type=int, default=2, help="Depth of exploration (default: 2)")
+    parser.add_argument(
+        "--queries",
+        nargs="+",
+        required=True,
+        help="Initial search queries (provide at least one)"
+    )
+    return parser.parse_args()
 
 if __name__ == "__main__":
-    topic = "The future of AI"
-    initial_queries = [
-        "Future trends in artificial intelligence",
-        "AI and job automation",
-        "Ethical concerns of AI",
-        "AI in healthcare",
-        "AGI vs narrow AI"
-    ]
-    max_depth = 2
+    print("🔧 Starting DeepResearchAgent...")
 
-    agent = DeepResearchAgent(topic, initial_queries, max_depth)
+    args = parse_args()
+
+    agent = DeepResearchAgent(
+        topic=args.topic,
+        initial_queries=args.queries,
+        max_depth=args.depth
+    )
+
     agent.run()
