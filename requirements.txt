@@ -1,8 +1,7 @@
-google-search-results
 python-dotenv
-openai>=1.0.0
-scikit-learn
-tqdm
-newspaper3k
-lxml
-sqlite-utils
+langchain
+langchain-community
+langchain-openai
+openai
+tiktoken
+chromadb

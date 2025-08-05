@@ -1,38 +1,41 @@
+# 📘 Research Report on: AI in medicine
 
-📘 Research Report on: AI in Education
 ---
+
 🔍 Insights:
-31 entries analyzed. Emerging themes: AI disruption, ethics, applications.
+32 entries analyzed. Emerging themes: AI disruption, ethics, applications.
 
 📚 Knowledge Base:
-1. Tutor AI is a personal AI tutor designed to help users learn various subjects by providing explanations, examples, and allowing them to learn at their own pace through asking questions.
-2. Khanmigo is an AI-powered teaching tool created by Khan Academy, a nonprofit organization. It is highly rated for education, helping users save time on preparation, address homework difficulties, and receive personalized tutoring.
-3. This search result provides a list of the 15 best AI tutors for students and professionals, offering real-time feedback and adaptive lessons to help enhance skills through AI-powered learning.
-4. AI Tutor is an all-in-one learning platform that provides instant chat, practice tests, lesson plans, and writing help for various subjects and grade levels, making it a comprehensive resource for homework help, test preparation, and language learning.
-5. Adaptive learning is a data-driven instructional technique that customizes learning experiences to suit the unique needs of each student.
-6. Adaptive learning, also called adaptive teaching, is an educational approach that utilizes computer algorithms and artificial intelligence to tailor instruction to individual learners' needs.
-7. Adaptive learning, also known as adaptive teaching, involves providing personalized learning experiences tailored to the specific needs of each individual through timely interventions.
-8. Adaptive learning is a personalized teaching and learning approach that tailors lessons, readings, practice activities, and assessments to individual students to enhance their learning experience.
-9. AI in schools has pros such as providing students with immediate and detailed feedback on their work, allowing them to identify their strengths and weaknesses.
-10. Artificial intelligence has been quietly used in classrooms for years to power learning management tools like Google Classroom, Canvas, and Turnitin.
-11. Educators in the U.S. are increasingly using AI in classrooms, with teachers primarily using it to support students with learning differences. The impact and benefits of AI in education are being explored further.
-12. This search result suggests incorporating generative AI tools in the classroom to engage students, either in person or by sharing AI-generated responses to questions during class.
-13. Tutor AI is a personal AI tutor designed to help users learn various subjects by providing explanations, examples, and the ability to learn at their own pace.
-14. Khanmigo is an AI-powered teaching tool created by Khan Academy, a nonprofit organization. It is highly rated for education and offers personalized tutoring to help save time on preparation and tackle homework challenges.
-15. This search result lists the top 15 AI tutors for students and professionals, offering real-time feedback and adaptive lessons to help enhance skills through AI-powered technology.
-16. AI Tutor is an all-in-one learning platform that provides instant chat, practice tests, lesson plans, and writing help for students of any grade level and subject.
-17. Adaptive learning is a data-driven instructional approach that customizes learning experiences to suit the unique needs of each student.
-18. Adaptive learning, also referred to as adaptive teaching, is an educational approach that incorporates computer algorithms and artificial intelligence to personalize the learning experience for students.
-19. Adaptive learning, also known as adaptive teaching, involves providing personalized learning experiences tailored to the specific needs of each individual through timely interventions.
-20. Adaptive learning is a personalized teaching and learning approach that tailors lessons, readings, practice activities, and assessments to meet the individual needs of each learner.
-21. AI in schools has the potential to provide students with immediate and detailed feedback on their work, allowing them to better understand their strengths and weaknesses.
-22. Artificial intelligence has been quietly used in classrooms for years to power learning management tools like Google Classroom, Canvas, and Turnitin.
-23. Educators in the U.S. are increasingly using AI in classrooms, with teachers primarily utilizing AI to support students with learning differences. The impact and potential benefits of AI in education are being explored further.
-24. This search result suggests incorporating generative AI tools in the classroom to engage students, either by using them in person or by sharing AI-generated responses to questions during class time.
-25. Tutor AI is an AI tutor that provides personalized assistance for learning various subjects by offering explanations, examples, and the ability to learn at your own pace.
-26. AI personal tutors are transforming education by providing tailored learning experiences, instant feedback, and enhancing academic outcomes.
-27. AI Tutor is a versatile learning tool that offers personalized support for homework help, test preparation, and language learning based on the specific subject and educational level of the user.
-28. Khanmigo is an AI-powered teaching tool from Khan Academy that has received a 4-star rating, making it one of the top-rated AI-for-education apps available.
-29. Khan Academy offers a free AI-powered teacher assistant called Khanmigo to help educators streamline their preparation and have more energy for teaching and interacting with students.
-30. Khanmigo for Teachers is a free AI-powered teaching tool that offers AI-generated report card comments to help teachers innovate and create engaging classes.
-31. Sal Khan, the creator of Khan Academy, has developed an AI-powered tutor to assist educators in their teaching efforts. Khan Academy's lectures and educational software have been widely utilized for years in the field of education.
+
+1. AI-powered TB screening utilizes a digital stethoscope to analyze lung sounds, resulting in a 63% reduction in missed cases compared to symptomatic screening and being 2.7 times more effective.
+2. AI DIAGNOSTICS offers AI-assisted performance diagnostics that combine sports science and artificial intelligence to provide accurate performance analyses for cyclists and triathletes of all levels.
+3. AI is set to revolutionize the healthcare sector by improving diagnostics and health outcomes through its transformative role in the diagnostic process.
+4. AI Imaging & Diagnostics is conducting research to enhance disease detection using AI in diagnostic imaging. The goal is to improve treatment plans through advanced imaging and diagnostics in the future.
+5. Robotic surgery enables doctors to perform complex procedures with greater precision, flexibility, and control compared to traditional methods.
+6. Robotic surgery involves using very small incisions and enhanced magnification for faster recovery and reduced risks, according to UCLA Health.
+7. Robotic surgery involves a surgeon using a robotic device with a robotic arm to perform a procedure, utilizing small surgical instruments.
+8. AI-based triage systems can enhance communication and coordination in the emergency department and other hospital departments by offering real-time data and insights.
+9. An AI algorithm has been developed to quickly predict the risk of various outcomes and recommend a level of care for triage in emergency situations.
+10. AI-driven triage systems in emergency departments offer a promising solution by automating patient prioritization through the analysis of real-time data like vital signs and medical history.
+11. The use of artificial intelligence in emergency care triage, specifically the LLM-based at-home triage system, has the potential to reduce costs by capturing symptoms and medical history remotely, guiding patients before they arrive at a healthcare facility.
+12. AI-powered TB screening utilizes a digital stethoscope to analyze lung sounds, resulting in a 63% reduction in missed cases compared to symptomatic screening, and is 2.7 times more effective.
+13. AI DIAGNOSTICS utilizes artificial intelligence to offer precise performance analyses for cyclists and triathletes, bridging the gap between sports science and technology.
+14. AI is revolutionizing the healthcare sector by improving diagnostics and health outcomes through its transformative role in diagnosing illnesses.
+15. AI Imaging & Diagnostics conducts research to enhance disease detection using artificial intelligence in diagnostic imaging. Their goal is to leverage advanced imaging technologies to potentially improve treatment planning in the future.
+16. Robotic surgery enables doctors to perform complex procedures with greater precision, flexibility, and control compared to traditional methods.
+17. Robotic surgery involves using very small incisions and enhanced magnification to perform surgeries, leading to quicker recovery and reduced risks, according to UCLA Health.
+18. Robotic surgery involves surgeons using a robotic device with a robotic arm to perform procedures, utilizing small surgical instruments.
+19. AI-based triage systems can improve communication and coordination in the emergency department and with other hospital departments by offering real-time data and insights.
+20. An AI algorithm has been developed to quickly predict the risk of various outcomes, recommend a level of care for triage, and offer assistance in emergency situations.
+21. AI-driven triage systems in emergency departments show promise by automating patient prioritization through the analysis of real-time data like vital signs and medical history.
+22. The use of Artificial Intelligence in emergency care triage, specifically the LLM-based at-home triage system, aims to reduce costs by capturing symptoms and history while patients are still at home and providing guidance.
+23. An AI-powered digital stethoscope for TB screening offers affordable and accurate early detection capabilities, surpassing traditional methods.
+24. This study focuses on the development and evaluation of AI-based tuberculosis screening using a digital stethoscope to capture lung sounds, conducted as a case-control study.
+25. A TB detection tool has been developed that allows unspecialized healthcare workers to detect Tuberculosis early and cost-effectively by using an AI-enabled stethoscope.
+26. Advancements in TB diagnostics tools are enhancing disease detection, while AI-powered surveillance systems are being used to predict outbreaks and monitor the spread of tuberculosis, aiding public health efforts.
+27. A study showed that doctors using an AI-enabled digital stethoscope were 12 times more likely to detect peripartum issues compared to traditional screening methods.
+28. AI DIAGNOSTICS uses artificial intelligence to offer precise performance analyses for cyclists and triathletes, integrating sports science with AI technology.
+29. Research on artificial intelligence-assisted medicine shows that AI can improve the accuracy and efficiency of diagnostic and treatment decisions by providing more precise assisted diagnosis compared to traditional manual methods.
+30. AI has the potential to improve the accuracy and efficiency of interpreting medical images such as X-rays, MRIs, and CT scans, revolutionizing diagnostic imaging.
+31. A systematic review and meta-analysis of 83 studies found an overall diagnostic accuracy of 52.1%. The study did not find a significant difference in performance between artificial intelligence models and physicians.
+32. Artificial intelligence shows promise in reducing diagnostic errors by enhancing information gathering, providing clinical decision support, and offering feedback in healthcare settings.

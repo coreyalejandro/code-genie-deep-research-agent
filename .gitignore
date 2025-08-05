@@ -1,0 +1,27 @@
+# Bytecode / compiled files
+__pycache__/
+*.py[cod]
+
+# Local environment
+.env
+*.env
+*.venv/
+.venv/
+
+# SQLite DBs (if user-generated)
+knowledge.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
