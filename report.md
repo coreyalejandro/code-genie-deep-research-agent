@@ -1,21 +1,38 @@
 
-📘 Research Report on: AI in healthcare
+📘 Research Report on: AI in Education
 ---
 🔍 Insights:
-14 entries analyzed. Emerging themes: AI disruption, ethics, applications.
+31 entries analyzed. Emerging themes: AI disruption, ethics, applications.
 
 📚 Knowledge Base:
-1. AI-powered TB screening utilizes a digital stethoscope to analyze lung sounds, leading to a 63% reduction in missed cases compared to symptomatic screening and being 2.7 times more effective.
-2. AI DIAGNOSTICS is a platform that combines sports science and artificial intelligence to offer detailed performance analyses for cyclists and triathletes, aiming to enhance their performance.
-3. AI is revolutionizing the healthcare sector by improving diagnostics and health outcomes through its transformative role in the diagnostic process.
-4. AI Imaging & Diagnostics conducts research to enhance disease detection using artificial intelligence in diagnostic imaging. Their work may lead to improved treatment plans through advanced imaging and diagnostics.
-5. Artificial intelligence (AI) is being utilized in robotic surgery to automate tasks, improve intraoperative safety, and advance the field of surgical procedures.
-6. The Hub surgical robot transformer, SRT-H, has successfully performed surgery without human assistance, adapting to individual anatomical features in real-time.
-7. AI is expected to revolutionize surgery by enabling robots to perform simple tasks such as closing a port site and tying sutures or knots.
-8. This paper explores how artificial intelligence is transforming robotic surgery by discussing the advantages, challenges, and potential advancements of AI-driven robotic surgical systems.
-9. Experts predict that the future of robotic surgery will involve increased integration of AI and machine learning algorithms to enhance surgical procedures.
-10. UiPath customers have utilized automation to handle more than 2 billion hours of administrative tasks in healthcare, aiming to reduce burnout for healthcare workers, clinicians, and patients.
-11. Automation in healthcare involves using technology to minimize human involvement in various processes, ultimately streamlining operations and improving efficiency within the industry.
-12. Automation in the healthcare industry is improving efficiency, accuracy, and shaping the future of healthcare by delivering better outcomes.
-13. This research study examines the effects of implementing an autonomous clinical conversational assistant on staff experiences in healthcare settings before and after automation of care pathways.
-14. The use of robotics in healthcare can enhance precision, safety, and efficiency, ultimately reducing costs and recovery time for patients.
+1. Tutor AI is a personal AI tutor designed to help users learn various subjects by providing explanations, examples, and allowing them to learn at their own pace through asking questions.
+2. Khanmigo is an AI-powered teaching tool created by Khan Academy, a nonprofit organization. It is highly rated for education, helping users save time on preparation, address homework difficulties, and receive personalized tutoring.
+3. This search result provides a list of the 15 best AI tutors for students and professionals, offering real-time feedback and adaptive lessons to help enhance skills through AI-powered learning.
+4. AI Tutor is an all-in-one learning platform that provides instant chat, practice tests, lesson plans, and writing help for various subjects and grade levels, making it a comprehensive resource for homework help, test preparation, and language learning.
+5. Adaptive learning is a data-driven instructional technique that customizes learning experiences to suit the unique needs of each student.
+6. Adaptive learning, also called adaptive teaching, is an educational approach that utilizes computer algorithms and artificial intelligence to tailor instruction to individual learners' needs.
+7. Adaptive learning, also known as adaptive teaching, involves providing personalized learning experiences tailored to the specific needs of each individual through timely interventions.
+8. Adaptive learning is a personalized teaching and learning approach that tailors lessons, readings, practice activities, and assessments to individual students to enhance their learning experience.
+9. AI in schools has pros such as providing students with immediate and detailed feedback on their work, allowing them to identify their strengths and weaknesses.
+10. Artificial intelligence has been quietly used in classrooms for years to power learning management tools like Google Classroom, Canvas, and Turnitin.
+11. Educators in the U.S. are increasingly using AI in classrooms, with teachers primarily using it to support students with learning differences. The impact and benefits of AI in education are being explored further.
+12. This search result suggests incorporating generative AI tools in the classroom to engage students, either in person or by sharing AI-generated responses to questions during class.
+13. Tutor AI is a personal AI tutor designed to help users learn various subjects by providing explanations, examples, and the ability to learn at their own pace.
+14. Khanmigo is an AI-powered teaching tool created by Khan Academy, a nonprofit organization. It is highly rated for education and offers personalized tutoring to help save time on preparation and tackle homework challenges.
+15. This search result lists the top 15 AI tutors for students and professionals, offering real-time feedback and adaptive lessons to help enhance skills through AI-powered technology.
+16. AI Tutor is an all-in-one learning platform that provides instant chat, practice tests, lesson plans, and writing help for students of any grade level and subject.
+17. Adaptive learning is a data-driven instructional approach that customizes learning experiences to suit the unique needs of each student.
+18. Adaptive learning, also referred to as adaptive teaching, is an educational approach that incorporates computer algorithms and artificial intelligence to personalize the learning experience for students.
+19. Adaptive learning, also known as adaptive teaching, involves providing personalized learning experiences tailored to the specific needs of each individual through timely interventions.
+20. Adaptive learning is a personalized teaching and learning approach that tailors lessons, readings, practice activities, and assessments to meet the individual needs of each learner.
+21. AI in schools has the potential to provide students with immediate and detailed feedback on their work, allowing them to better understand their strengths and weaknesses.
+22. Artificial intelligence has been quietly used in classrooms for years to power learning management tools like Google Classroom, Canvas, and Turnitin.
+23. Educators in the U.S. are increasingly using AI in classrooms, with teachers primarily utilizing AI to support students with learning differences. The impact and potential benefits of AI in education are being explored further.
+24. This search result suggests incorporating generative AI tools in the classroom to engage students, either by using them in person or by sharing AI-generated responses to questions during class time.
+25. Tutor AI is an AI tutor that provides personalized assistance for learning various subjects by offering explanations, examples, and the ability to learn at your own pace.
+26. AI personal tutors are transforming education by providing tailored learning experiences, instant feedback, and enhancing academic outcomes.
+27. AI Tutor is a versatile learning tool that offers personalized support for homework help, test preparation, and language learning based on the specific subject and educational level of the user.
+28. Khanmigo is an AI-powered teaching tool from Khan Academy that has received a 4-star rating, making it one of the top-rated AI-for-education apps available.
+29. Khan Academy offers a free AI-powered teacher assistant called Khanmigo to help educators streamline their preparation and have more energy for teaching and interacting with students.
+30. Khanmigo for Teachers is a free AI-powered teaching tool that offers AI-generated report card comments to help teachers innovate and create engaging classes.
+31. Sal Khan, the creator of Khan Academy, has developed an AI-powered tutor to assist educators in their teaching efforts. Khan Academy's lectures and educational software have been widely utilized for years in the field of education.
