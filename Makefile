@@ -113,6 +113,7 @@ research:
 	@echo "  research run        - Start QA agent"
 	@echo "  research db-init    - Initialize database"
 	@echo "  research ingest-pdf - Add PDF files to database"
+	@echo "  research julius     - Start Julius-style research agent"
 	@echo "  research db-show    - Show schema"
 	@echo "  research dashboard  - Start web dashboard"
 

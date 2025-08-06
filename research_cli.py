@@ -147,6 +147,17 @@ def run_pdf_ingester():
         print(f"❌ Error starting PDF ingester: {e}")
         return 1
 
+def run_julius_agent():
+    """Run the Julius-style research agent"""
+    print("🧠 Starting Julius Research Agent...")
+    try:
+        from julius_researcher import main as julius_main
+        julius_main()
+        return 0
+    except Exception as e:
+        print(f"❌ Error starting Julius agent: {e}")
+        return 1
+
 def main():
     parser = argparse.ArgumentParser(
         description="Deep Research Agent CLI",
@@ -158,13 +169,14 @@ Examples:
   research db-init        # Initialize database
   research db-show        # Show database schema
   research ingest-pdf     # Add PDF files to database
+  research julius         # Start Julius-style research agent
   research dashboard      # Start web dashboard
         """
     )
     
     parser.add_argument(
         'command',
-        choices=['setup', 'run', 'db-init', 'db-show', 'db-reset', 'dashboard', 'ingest-pdf', 'help'],
+        choices=['setup', 'run', 'db-init', 'db-show', 'db-reset', 'dashboard', 'ingest-pdf', 'julius', 'help'],
         help='Command to run'
     )
     
@@ -191,6 +203,8 @@ Examples:
         return run_dashboard()
     elif args.command == 'ingest-pdf':
         return run_pdf_ingester()
+    elif args.command == 'julius':
+        return run_julius_agent()
     elif args.command == 'help':
         parser.print_help()
         return 0
