@@ -5,4 +5,14 @@ langchain-openai
 openai
 tiktoken
 chromadb
-pypdf
+
+[dashboard]
+streamlit
+
+[dev]
+pytest
+pytest-cov
+black
+ruff
+bandit
+safety

@@ -1,3 +1,56 @@
+Metadata-Version: 2.4
+Name: deep-research-agent
+Version: 1.0.0
+Summary: AI-powered research assistant with vector search and knowledge management
+Home-page: https://github.com/coreyalejandro/code-genie-deep-research-agent
+Author: Corey Alejandro
+Author-email: your.email@example.com
+Project-URL: Bug Reports, https://github.com/coreyalejandro/code-genie-deep-research-agent/issues
+Project-URL: Source, https://github.com/coreyalejandro/code-genie-deep-research-agent
+Project-URL: Documentation, https://github.com/coreyalejandro/code-genie-deep-research-agent#readme
+Keywords: ai research assistant vector-search knowledge-management openai langchain
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: python-dotenv
+Requires-Dist: langchain
+Requires-Dist: langchain-community
+Requires-Dist: langchain-openai
+Requires-Dist: openai
+Requires-Dist: tiktoken
+Requires-Dist: chromadb
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: bandit; extra == "dev"
+Requires-Dist: safety; extra == "dev"
+Provides-Extra: dashboard
+Requires-Dist: streamlit; extra == "dashboard"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: project-url
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
 # Deep Research Agent
 
 An AI-powered research assistant with vector search and knowledge management capabilities.
@@ -5,7 +58,6 @@ An AI-powered research assistant with vector search and knowledge management cap
 ## 🚀 Quick Start
 
 ### Option 1: Using Make (Recommended)
-
 ```bash
 # Set up everything
 make setup
@@ -15,7 +67,6 @@ make run
 ```
 
 ### Option 2: Using CLI
-
 ```bash
 # Install CLI
 pip install -e .
@@ -28,7 +79,6 @@ research run
 ```
 
 ### Option 3: Manual Setup
-
 ```bash
 # Install dependencies
 pip install -r requirements.txt
@@ -47,7 +97,6 @@ python qa_agent.py
 ## 🛠️ Available Commands
 
 ### Make Commands
-
 ```bash
 make help          # Show all available commands
 make install       # Install dependencies
@@ -63,7 +112,6 @@ make install-cli   # Install the CLI tool
 ```
 
 ### CLI Commands
-
 ```bash
 research setup          # Set up environment
 research run            # Start interactive QA agent
@@ -86,7 +134,7 @@ research help           # Show help
 
 ## 🏗️ Architecture
 
-```text
+```
 ├── qa_agent.py          # Main QA agent
 ├── db_utils.py          # Database utilities
 ├── research_cli.py      # CLI interface
@@ -99,12 +147,10 @@ research help           # Show help
 ## 🔧 Development
 
 ### Prerequisites
-
 - Python 3.9+
 - OpenAI API key
 
 ### Development Setup
-
 ```bash
 # Clone the repository
 git clone https://github.com/coreyalejandro/code-genie-deep-research-agent.git
@@ -118,7 +164,6 @@ make setup
 ```
 
 ### Running Tests
-
 ```bash
 # Run all checks
 make dev
@@ -132,7 +177,6 @@ make test
 ## 🤖 CI/CD
 
 The project includes GitHub Actions for:
-
 - **Testing**: Multi-Python version testing
 - **Linting**: Code quality checks
 - **Security**: Vulnerability scanning

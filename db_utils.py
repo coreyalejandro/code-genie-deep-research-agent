@@ -5,7 +5,7 @@ Makes schema management more tractable and organized
 
 import sqlite3
 import os
-from typing import List, Dict, Any, Optional
+from typing import List, Dict, Any
 
 class DatabaseManager:
     """Manages database operations and schema"""
@@ -37,7 +37,7 @@ class DatabaseManager:
                     print(f"✅ Executed: {statement[:50]}...")
                 except sqlite3.OperationalError as e:
                     if "already exists" in str(e):
-                        print(f"ℹ️  Table already exists")
+                        print("ℹ️  Table already exists")
                     else:
                         print(f"⚠️  Error: {e}")
             
