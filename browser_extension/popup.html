@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Deep Research Agent</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    <div class="header">
+      <h1>🧠 Deep Research Agent</h1>
+      <p>Your AI research assistant</p>
+    </div>
+    
+    <div class="quick-actions">
+      <button id="openSidebar" class="btn primary">
+        📚 Open Research Sidebar
+      </button>
+      <button id="analyzePage" class="btn secondary">
+        🔍 Analyze This Page
+      </button>
+      <button id="saveToNotebook" class="btn secondary">
+        📝 Save to Notebook
+      </button>
+    </div>
+    
+    <div class="research-input">
+      <textarea id="researchQuery" placeholder="Ask me anything about this page or your research..."></textarea>
+      <button id="askAgent" class="btn primary">Ask Agent</button>
+    </div>
+    
+    <div class="recent-searches">
+      <h3>Recent Research</h3>
+      <div id="recentList" class="recent-list">
+        <!-- Recent searches will be populated here -->
+      </div>
+    </div>
+    
+    <div class="status">
+      <div id="statusIndicator" class="status-indicator">
+        <span class="dot green"></span>
+        <span>Agent Ready</span>
+      </div>
+    </div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html> 

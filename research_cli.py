@@ -158,6 +158,23 @@ def run_julius_agent():
         print(f"❌ Error starting Julius agent: {e}")
         return 1
 
+def run_enhanced_notebook():
+    """Run the enhanced notebook (NotebookLM-like)"""
+    print("📚 Starting Enhanced Notebook...")
+    try:
+        import importlib.util
+        if importlib.util.find_spec("flask") is None:
+            print("❌ Flask not installed!")
+            print("   Install with: pip install flask flask-socketio")
+            return 1
+        
+        os.chdir('enhanced_notebook')
+        os.system('python app.py')
+        return 0
+    except Exception as e:
+        print(f"❌ Error starting enhanced notebook: {e}")
+        return 1
+
 def main():
     parser = argparse.ArgumentParser(
         description="Deep Research Agent CLI",
@@ -170,13 +187,14 @@ Examples:
   research db-show        # Show database schema
   research ingest-pdf     # Add PDF files to database
   research julius         # Start Julius-style research agent
+  research notebook       # Start enhanced notebook (NotebookLM-like)
   research dashboard      # Start web dashboard
         """
     )
     
     parser.add_argument(
         'command',
-        choices=['setup', 'run', 'db-init', 'db-show', 'db-reset', 'dashboard', 'ingest-pdf', 'julius', 'help'],
+        choices=['setup', 'run', 'db-init', 'db-show', 'db-reset', 'dashboard', 'ingest-pdf', 'julius', 'notebook', 'help'],
         help='Command to run'
     )
     
@@ -205,6 +223,8 @@ Examples:
         return run_pdf_ingester()
     elif args.command == 'julius':
         return run_julius_agent()
+    elif args.command == 'notebook':
+        return run_enhanced_notebook()
     elif args.command == 'help':
         parser.print_help()
         return 0

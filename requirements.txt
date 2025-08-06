@@ -7,3 +7,5 @@ tiktoken
 chromadb
 pypdf
 matplotlib
+flask
+flask-socketio
